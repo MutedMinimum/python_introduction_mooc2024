@@ -1,5 +1,5 @@
-people = []                 #leere Liste und den Inhalt einer Datei zu speichern
-                            #somit muss man eine Datei nicht mehrfach mit dem open
+people = []                 #leere Liste um den Inhalt einer Datei zu speichern
+                            #somit muss man eine Datei später nicht mehrfach mit dem open
                             #befehl öffnen
 
 with open("people.csv") as new_file:
